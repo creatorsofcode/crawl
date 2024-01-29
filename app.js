@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-
+const fs = require('fs');
 const url = 'https://en.wikipedia.org/wiki/List_of_programming_languages';
 
 async function scrapeProgrammingLanguages() {
