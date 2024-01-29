@@ -15,3 +15,7 @@ scrapeProgrammingLanguages()
   })
   .catch(error => console.error('Error:', error));
 </code>
+<br>
+
+Check demo<br>
+< href='https://koodimeistrid.ee/koodid.html'>All codes</a>
