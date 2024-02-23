@@ -21,6 +21,6 @@ scrapeProgrammingLanguages()
   .catch(error => console.error('Error:', error));
 
 
-scrapeProgrammingLanguages(.listen(port, () => {
+scrapeProgrammingLanguages.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
