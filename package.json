@@ -7,7 +7,7 @@
   "node": ">=18.18.0 <19.0.0"
 },
   "scripts": {
-    "start": "index.js",
+ "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
