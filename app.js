@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const url = 'https://en.wikipedia.org/wiki/List_of_programming_languages';
-
+const port = 3000;
 async function scrapeProgrammingLanguages() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
@@ -20,3 +20,7 @@ scrapeProgrammingLanguages()
   .then(languages => console.log(languages))
   .catch(error => console.error('Error:', error));
 
+
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
